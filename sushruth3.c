@@ -16,7 +16,7 @@ int main()
 	num1=num1*(LCM/den1);
 	num2=num2*(LCM/den2);
 	sum=num1+num2;
-	printf("%d/%d ",sum,LCM);
+	printf(" %d/%d ",sum,LCM);
 }
 	
 int lcm(int den1,int den2)
@@ -25,4 +25,3 @@ int lcm(int den1,int den2)
 	LCM=(den1*den2);
 	return LCM;
 }
-	
